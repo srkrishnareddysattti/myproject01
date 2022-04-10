@@ -1,0 +1,7 @@
+curl http://mirror.centos.org/centos/7/os/x86_64/Packages/yum-3.4.3-168.el7.centos.noarch.rpm | rpm2cpio | cpio -idmv
+
+
+
+mount -t nfs 192.168.230.7:/var/nfs /mnt/nfs/var/nfs
+
+echo "Client Hello" >> /mnt/nfs/var/nfs/testing.txt

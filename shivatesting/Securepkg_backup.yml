@@ -1,0 +1,11 @@
+- name: taking files backup
+  hosts: all
+  become: true
+  become_user: root
+  tasks:
+  - shell: cp -a /etc/passwd  /root/passwd.{{ansible_date_time.date}}
+  - shell: cp -a /etc/sudoers  /root/sudoers.{{ansible_date_time.date}}
+  - shell: cp -a /etc/shadow  /root/shadow.{{ansible_date_time.date}}
+  - shell: cp -a /etc/ssh/sshd_config  /root/sshd_config.{{ansible_date_time.date}}
+  - shell: cp -a /etc/bashrc  /root/bashrc.{{ansible_date_time.date}}
+  - shell: cp -a /etc/profile  /root/profile.{{ansible_date_time.date}}

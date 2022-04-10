@@ -1,0 +1,34 @@
+[ 1645013238.025227]: IMSettings-Daemon[1849]: INFO: Starting imsettings-daemon...
+[ 1645013238.025906]: IMSettings-Daemon[1849]: INFO:   [HOME=/root/.config/imsettings]
+[ 1645013238.025955]: IMSettings-Daemon[1849]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1645013238.025996]: IMSettings-Daemon[1849]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1645013238.026033]: IMSettings-Daemon[1849]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1645013238.026079]: IMSettings-Daemon[1849]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: N/A
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-7rTRdApRyQ,guid=13275d8886ef2a48ac5a987a620ce8f5
+GTK_IM_MODULE: 
+QT_IM_MODULE: 
+XMODIFIERS: 
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
+
+[ 1645031802.679862]: GLib-GIO[1849]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1645031802.680638]: GLib-GIO[1849]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1645031802.680854]: IMSettings-Daemon[1849]: INFO: Unloading imesttings module: gsettings
+[ 1645031802.880355]: IMSettings-Daemon[1849]: INFO: imsettings-daemon is shut down.

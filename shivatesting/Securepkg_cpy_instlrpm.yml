@@ -1,0 +1,19 @@
+- name: copying package file to target servers and installation
+  hosts: all
+  become: true
+  become_user: root
+  tasks:
+  - copy:
+      src: /var/tmp/cjc_useradd-2.6-33.noarch.rpm
+      dest: /var/tmp
+      mode: 0777
+  - command: hostname && uptime
+  - shell: sudo cat /etc/passwd | wc -l
+    register: output
+  - debug: var=output.stdout_lines
+  - shell: sudo cat /etc/shadow | wc -l
+    register: output
+  - debug: var=output.stdout_lines
+  - shell: sudo cat /etc/sudoers | wc -l
+    register: output:
+  - debug: var=output.stdout_lines

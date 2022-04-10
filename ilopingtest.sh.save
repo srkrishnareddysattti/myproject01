@@ -1,0 +1,25 @@
+# check the ping to the servers 
+#! /bin/bash
+# Color variables
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[0;33m'
+blue='\033[0;34m'
+magenta='\033[0;35m'
+cyan='\033[0;36m'
+# Clear the color after that
+clear='\033[0m'
+
+for s in `cat hosts_list` 
+do 
+echo "----ping test for $s---"
+ 
+echo "##* HOST: $s - "`host $s | cut -d " " -f5`" *##" 
+
+echo "" 
+
+ping -c2 -t1 $s |grep packets 
+ 
+echo "-----completed---------" 
+echo ""
+done

@@ -1,0 +1,48 @@
+#+1647323718
+echo $0
+#+1647323742
+echo $dirstack --show dir
+#+1647323744
+pwd
+#+1647323748
+cleare
+#+1647323751
+exit
+#+1647328949
+cat hosts.list
+#+1647328964
+cat test1.sh
+#+1647328978
+cat hostip.sh
+#+1647329988
+cat ilo.sh
+#+1647882381
+sar -f /var/log/sa/sa15
+#+1647882393
+sar -f /var/log/sa/sa15 -u 5
+#+1647882469
+sar -P ALL
+#+1647882472
+sar -P
+#+1647882475
+sar -r
+#+1647882480
+sar -b
+#+1647882523
+sar -P ALL -f /var/log/sa/sa15
+#+1647882601
+cd /var/log
+#+1647882606
+cd sa
+#+1647882607
+ls
+#+1647882617
+sar -f sa02
+#+1647882714
+sar -s 07:30:00 -s 17:30:00
+#+1647882787
+sar
+#+1647882791
+sar -u 5
+#+1647882835
+sar -u 5 -R
