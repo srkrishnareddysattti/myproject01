@@ -2,10 +2,6 @@
 echo $0
 #+1647323742
 echo $dirstack --show dir
-#+1647323744
-pwd
-#+1647323748
-cleare
 #+1647323751
 exit
 #+1647328949
@@ -34,8 +30,6 @@ sar -P ALL -f /var/log/sa/sa15
 cd /var/log
 #+1647882606
 cd sa
-#+1647882607
-ls
 #+1647882617
 sar -f sa02
 #+1647882714
@@ -46,3 +40,365 @@ sar
 sar -u 5
 #+1647882835
 sar -u 5 -R
+#+1649569235
+yum update
+#+1649569882
+yum install git*
+#+1649569911
+git --versin
+#+1649569929
+yum install -y terraform
+#+1649569934
+yum install -y terraform*
+#+1649569966
+useradd -m -s /bin/bash sreeram
+#+1649569995
+usermod sreeram -aG wheel
+#+1649570148
+passwd sreeram
+#+1649570157
+su sreeram
+#+1649571030
+cat README.md
+#+1649571056
+mkdir ramseetha
+#+1649571070
+git push ramseetha/ https://github.com/srkrishnareddysattti/githubnew.git
+#+1649571216
+nano mytouch
+#+1649571279
+git remote add origin https://github.com/srkrishnareddysattti/githubnew.git
+#+1649571480
+git checkout -b branch01
+#+1649571526
+git checkout
+#+1649571547
+git checkout -b brancho2
+#+1649571636
+git add localrepo
+#+1649579791
+git reset ramseetha
+#+1649579808
+git add seetha
+#+1649579815
+git addramseetha
+#+1649579858
+git push ( use "git reset HEAD <file>..." to unstage )
+#+1649579894
+git remoote centralrepo https://github.com/srkrishnareddysattti/githubnew.git
+#+1649579908
+git remote centralrepo https://github.com/srkrishnareddysattti/githubnew.git
+#+1649579927
+git remote add centralrepo https://github.com/srkrishnareddysattti/githubnew.git
+#+1649579947
+git fetch centralrepo
+#+1649579962
+cd ramseetha/
+#+1649579976
+git checkout centralrepo/main
+#+1649579994
+git merge centralrepo/main
+#+1649580050
+git config --global push.default simple
+#+1649580077
+git push --set-upstream centralrepo/main brancho2
+#+1649580086
+git push centralrepo/main
+#+1649580181
+gitsgow
+#+1649580212
+git add ramseetha
+#+1649580221
+git add mytouch
+#+1649580267
+git log mytouch
+#+1649580293
+git push https://github.com/srkrishnareddysattti/githubnew.git
+#+1649580432
+git push --set-upstream https://github.com/srkrishnareddysattti/githubnew.git brancho2
+#+1649580516
+git reset mytouch
+#+1649580526
+git remove mytouch
+#+1649580534
+cd ..
+#+1649580547
+rm -r ramseetha
+#+1649580616
+mkdir proc01
+#+1649580640
+git statis
+#+1649580660
+nano empty
+#+1649580682
+chmod 777 empty
+#+1649580703
+git add empty && git commit empty
+#+1649580798
+cd githubnew/
+#+1649580802
+cd proc01/
+#+1649580816
+git add empty
+#+1649580831
+git commit empty
+#+1649580854
+git push https://github.com/srkrishnareddysattti/myproject01.git
+#+1649580896
+git push --set-upstream https://github.com/srkrishnareddysattti/myproject01.git master
+#+1649580994
+git push https://github.com/srkrishnareddysattti/myproject01.git emtpy
+#+1649581024
+git push origin main
+#+1649583670
+rm githubnew/
+#+1649583677
+rm -rf githubnew/
+#+1649583849
+ll -al
+#+1649583865
+touch superfast
+#+1649583894
+git ad superfast
+#+1649583899
+git add superfast
+#+1649583926
+git --version
+#+1649583936
+git config --log
+#+1649583952
+git commit superfast
+#+1649584054
+git commit -m "second commit" superfast
+#+1649585236
+yum remove git
+#+1649585285
+touch file{1...3}
+#+1649585300
+pwd
+#+1649585335
+git commit .
+#+1649585371
+git commit -m "fresh commit" .
+#+1649585406
+git remote add origin master
+#+1649585546
+git remote add origin1 https://github.com/srkrishnareddysattti/myproject01.git
+#+1649586297
+git checkout branch01
+#+1649586437
+git commit -m "branch01 commit" .
+#+1649586474
+git branch -d branch01
+#+1649586494
+git branch -D branch01
+#+1649586537
+nano brnach02file
+#+1649586562
+git commit -m "branch02 commit" .
+#+1649586612
+nano branch03file
+#+1649586631
+git add .
+#+1649586651
+git commit -m " branch03 commit" .
+#+1649586965
+git branch-D branch03
+#+1649586998
+git branch branch01
+#+1649587007
+nano branch01file
+#+1649587093
+git branch branch02
+#+1649587110
+nano branch02file
+#+1649587166
+git branch branch03
+#+1649587175
+git checkout branch0
+#+1649587200
+nano branch0file
+#+1649587561
+cd branches/
+#+1649587594
+git push -u origin2 master
+#+1649587663
+git commit -m "branch01 commit" branch01
+#+1649587670
+git commit -m "branch01 commit" branch01file
+#+1649587684
+git commit -m "branch02~ commit" branch02file
+#+1649587703
+git commit -m "branch03 commit" branch03file
+#+1649587725
+git commit -m "branch03 commit" branch0file
+#+1649587748
+git push -u origon master
+#+1649587763
+git push -u origin master
+#+1649587775
+git push -u origin1 master
+#+1649587874
+history
+#+1649588052
+git add branch0*
+#+1649588075
+git commit -m "all branches" branch0*
+#+1649588106
+git push -u origin1 branch03
+#+1649588385
+nano masterbanh
+#+1649588399
+git checkout branch02
+#+1649588412
+git checkout branch03
+#+1649588429
+nano branch01
+#+1649588501
+git branch -D branch0*
+#+1649588504
+git branch -D branch02
+#+1649588507
+git branch -D branch03
+#+1649588517
+git show
+#+1649588748
+git branch -m master rootbranch
+#+1649588775
+git branch -D rootbranch
+#+1649588833
+git clone -b branch03 origin1
+#+1649588839
+git clone -b branch03 https://github.com/srkrishnareddysattti/myproject01.git
+#+1649591941
+yum install it -y
+#+1649591957
+yum install -y git
+#+1649592006
+git remote add origin https://github.com/srkrishnareddysattti/myproject01.git
+#+1649592044
+git branch -m rootbranch master
+#+1649592281
+yum remove git -y
+#+1649592296
+init 6
+#+1649592364
+mkdit /git
+#+1649592371
+mkdir /git
+#+1649592377
+cd /git
+#+1649592383
+yum install git -y
+#+1649592401
+ll
+#+1649592415
+cd /git/
+#+1649592424
+git init
+#+1649592461
+git branch master
+#+1649592473
+git branch master01
+#+1649592481
+git checkout -b master
+#+1649592504
+cd
+#+1649592532
+git branch master1
+#+1649592538
+git branch master2
+#+1649592598
+git checkout master1
+#+1649592624
+nano test01
+#+1649592731
+nano test02
+#+1649592759
+git checkout master2
+#+1649592783
+nano test03
+#+1649592815
+git add test02
+#+1649592858
+git commit -m "master1 commit, gooing to master2" test01
+#+1649592865
+git commit -m "master1 commit, gooing to master2" test02
+#+1649592901
+git checkout master
+#+1649592960
+git push -u origin master2
+#+1649592977
+git push -u origin1 master2
+#+1649593185
+git branch
+#+1649593247
+nano test04
+#+1649593284
+git add test04
+#+1649593305
+git commit -m "initial commit" test04
+#+1649593310
+git push origin1 master
+#+1649593364
+git log
+#+1649593536
+git pull
+#+1649593584
+git clone -b main origin1
+#+1649593598
+git clone -b main https://github.com/srkrishnareddysattti/myproject01.git
+#+1649593612
+cd myproject01/
+#+1649593619
+cat aws-cli.pdf
+#+1649593628
+PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY6cPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY6cPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY6cPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY6cPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY6cPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+#+1649593632
+cleare
+#+1649593634
+clear
+#+1649594706
+ls -al
+#+1649594710
+cd .git
+#+1649594719
+cat config
+#+1649594756
+cd logs/
+#+1649594756
+ls
+#+1649594762
+cat HEAD
+#+1649594784
+git config --global
+#+1649607717
+git rev-parse HEAD
+#+1649607739
+git log -1
+#+1649607763
+git log --pretty=format:'' | wc -l
+#+1649607780
+git rev-list --all --count
+#+1649607797
+git shortlog -s
+#+1649607906
+git --help
+#+1649607919
+git tag
+#+1649607924
+git sha
+#+1649607965
+git log ramseetha
+#+1649607971
+git status ramseetha
+#+1649607978
+git status
+#+1649607991
+git config --list
+#+1649607999
+git config --global log
+#+1649608010
+git global log
+#+1649608565
+shutdown
